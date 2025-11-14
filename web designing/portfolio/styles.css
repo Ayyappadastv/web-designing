@@ -1,0 +1,16 @@
+/* Simple portfolio styles */
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color: #222; }
+.hero { background: linear-gradient(135deg,#343a40 0%, #495057 100%); color: #fff; padding: 80px 0; }
+.hero .lead { opacity: 0.9; }
+.avatar-placeholder { width: 160px; height: 160px; border-radius: 50%; background: #e9ecef; display:flex; align-items:center; justify-content:center; margin:0 auto; }
+.card-title { font-weight:600; }
+.card { border: none; }
+footer { border-top: 1px solid rgba(255,255,255,0.05); }
+@media (max-width:767px) { .hero { padding: 60px 0; } }
+
+/* Small adjustments for anchor targets when navbar height exists */
+section { scroll-margin-top: 70px; }
+
+/* Contact form success/error */
+#form-status.success { color: green; }
+#form-status.error { color: #c00; }

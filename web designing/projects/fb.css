@@ -1,0 +1,113 @@
+.header{
+    background: #3b5998;
+    width:100%;
+    height:95px;
+
+}
+body{
+    margin: 0;
+    font-family: Helvetica,Arial,sans-serif;
+
+}
+
+.logo{
+    width:50%;
+    padding-top: 40px;
+    float: left;
+}
+.login{
+    width: 50%;    
+    float: left;
+    padding-top: 18px;
+    
+
+}
+.Facebook{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-left: 170px;
+}
+.login-label{
+    font-size: 11px;
+    color: white;
+}
+.login-label-2{
+    font-size: 11px;
+    color: rgb(164, 187, 234);
+    text-decoration: none;
+}
+
+.pad{
+    margin-left: 110px;
+}
+.login-button{
+    background: #4267b2;
+    color: white;
+    height: 20px;
+    width: 60px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.login-button:hover{
+    background: #29487d;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.right{
+    width: 35%;
+    float: left;
+}
+.content{
+    background: linear-gradient(#ffffff, #a0b0ca);
+    height: 550px;
+}
+.image{
+    width: 660px;
+}
+.para{
+    color: #0c1e46;
+    font-size: 25px;
+    font-weight: bold;
+}
+.but3{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: aliceblue;
+    margin-left: 8px;
+
+}
+.but2{
+    height: 25px;
+    width: 420px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: aliceblue;
+    
+}
+.but{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: aliceblue;
+    
+}
+#Signup-btn{
+    height: 36px;
+    width: 200px;
+    background: #5f9c4c;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
